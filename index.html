@@ -1,38 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Marvel Character Build</title>
-  </head>
-  <body>
-    <header>
-      <h1 class="hidden">All About the Team</h1>
-      <img src="./img/logo.svg" alt=" marvel logo" id="marvel-logo" />
-    </header>
-    <main>
-      <nav id="character_nav">
-        <ul class="characters">
-          <li><img src="./img/cap.jpeg" alt="Captain America" /></li>
-          <li><img src="./img/clint.jpeg" alt="hawkeye" /></li>
-          <li><img src="./img/hulk.jpeg" alt="hulk" /></li>
-          <li><img src="./img/thor.jpeg" alt="thor" /></li>
-          <li><img src="./img/widow.jpeg" alt="widow" /></li>
-        </ul>
-      </nav>
 
-      <article>
-        <h3>Choose your hero!</h3>
-        <p>
-          Use your mouse to hover / click to discover more about each Marvel
-          hero
-        </p>
-      </article>
-    </main>
-    <footer class="stick_footer">
-        <h3>All images &copy; Marvel</h3>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Marvel Character Build</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="hidden">All About the Team</h1>
+    <img src="./img/logo.svg" alt=" marvel logo" id="marvel-logo">
+  </header>
+  <main>
+    <nav id="character_nav">
+      <ul class="characters">
+        <li>
+          <a href="#lightbox">
+            <div class="sprite"></div>
+            <div class="red_bumper"></div>
+            <h5>Captain America</h5>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="sprite" id="clint"></div>
+            <div class="red_bumper"></div>
+            <h5>Hawkeye</h5>
+        </li>
+        </a>
+        <li>
+          <a href="">
+            <div class="sprite" id="hulk"></div>
+            <div class="red_bumper"></div>
+            <h5>Hulk</h5>
+          </a>
+        </li>
+        <li>
+          <a href="#lightbox2">
+            <div class="sprite" id="thor"></div>
+            <div class="red_bumper"></div>
+            <h5>Thor</h5>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="sprite" id="widow"></div>
+            <div class="red_bumper"></div>
+            <h5>Black Widow</h5>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <article>
+      <h3>Choose your hero!</h3>
+      <p>
+        Use your mouse to hover / click to discover more about each Marvel
+        hero
+      </p>
+    </article>
+  </main>
+  <footer class="stick_footer">
+    <h3>All images &copy; Marvel</h3>
+  </footer>
+
+  <section class="lightbox" id="lightbox">
+    <a href="" class="lightbox_close">X</a>
+
+    <article>
+      <h3 class="lb_heading">
+        Captain America - The First Avenger
+      </h3>
+      <p class="lb_text">
+        Shortbread marzipan cookie dragée tart. Chocolate cake cheesecake sweet muffin jelly beans jelly topping
+        topping. Cotton candy wafer jelly beans cheesecake cotton candy. Gingerbread tiramisu cake carrot cake icing
+        biscuit cookie brownie icing. Shortbread marzipan cookie dragée tart. Chocolate cake cheesecake
+        sweet muffin jelly beans jelly topping
+        topping. Cotton candy wafer jelly beans cheesecake cotton candy. Gingerbread tiramisu cake carrot cake icing
+        biscuit cookie brownie icing.
+      </p>
+
+      <p class="lb_text">
+        Lemon drops wafer muffin sesame snaps oat cake cake cupcake jujubes bear claw.
+        Cheesecake liquorice tart powder halvah cake. Shortbread marzipan cookie dragée tart. Chocolate cake cheesecake
+        sweet muffin jelly beans jelly topping
+        topping. Cotton candy wafer jelly beans cheesecake cotton candy. Gingerbread tiramisu cake carrot cake icing
+        biscuit cookie brownie icing.
+      </p>
+    </article>
+
+  </section>
+
+  <section class="lightbox" id="lightbox2">
+    <a href="" class="lightbox_close">X</a>
+
+    <article>
+      <h3 class="lb_heading">
+        Thor Odinson- The Asgardian
+      </h3>
+      <p class="lb_text">
+        Shortbread marzipan cookie dragée tart. Chocolate cake cheesecake sweet muffin jelly beans jelly topping
+        topping. Cotton candy wafer jelly beans cheesecake cotton candy. Gingerbread tiramisu cake carrot cake icing
+        biscuit cookie brownie icing. Shortbread marzipan cookie dragée tart. Chocolate cake cheesecake
+        sweet muffin jelly beans jelly topping
+        topping. Cotton candy wafer jelly beans cheesecake cotton candy. Gingerbread tiramisu cake carrot cake icing
+        biscuit cookie brownie icing.
+      </p>
+
+      <p class="lb_text">
+        Lemon drops wafer muffin sesame snaps oat cake cake cupcake jujubes bear claw.
+        Cheesecake liquorice tart powder halvah cake. Shortbread marzipan cookie dragée tart. Chocolate cake cheesecake
+        sweet muffin jelly beans jelly topping
+        topping. Cotton candy wafer jelly beans cheesecake cotton candy. Gingerbread tiramisu cake carrot cake icing
+        biscuit cookie brownie icing.
+      </p>
+    </article>
+
+  </section>
+</body>
+
 </html>
